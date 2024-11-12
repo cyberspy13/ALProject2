@@ -1,4 +1,4 @@
-table 50107 CardataTable
+table 50300 CardataTable
 {
     Caption = 'CarDataTable';
     DataClassification = ToBeClassified;

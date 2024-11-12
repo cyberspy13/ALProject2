@@ -1,4 +1,4 @@
-table 50104 "CustomerFeedback "
+table 50301 "CustomerFeedback "
 {
     Caption = 'CustomerFeedback ';
     DataClassification = ToBeClassified;

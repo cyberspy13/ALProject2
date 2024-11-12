@@ -1,4 +1,4 @@
-enum 50100 GearboxEnum
+enum 50300 GearboxEnum
 {
     Extensible = true;
 
