@@ -1,39 +1,45 @@
-table 50103 SimpleTestTable
+table 50107 CardataTable
 {
-    Caption = 'SimpleTestTable';
+    Caption = 'CarDataTable';
     DataClassification = ToBeClassified;
+    LookupPageId = "Company cars";
 
     fields
     {
-        field(1; "Car brand"; Text[40])
+        field(1; "Make"; Text[30])
         {
-            Caption = 'Car brand';
+            Caption = 'Make';
             DataClassification = CustomerContent;
         }
-        field(2; "Car model"; Text[50])
+        field(2; "Model"; Text[50])
         {
-            Caption = 'Car model';
+            Caption = 'Model';
             DataClassification = CustomerContent;
         }
-        field(3; "Manufacturing Year"; Integer)
+        field(3; "Year"; Integer)
         {
             Caption = 'Manufacturing Year';
             DataClassification = CustomerContent;
         }
-        field(4; "Total owners"; Integer)
+        field(4; "Mileage"; Integer)
         {
             Caption = 'Total owners';
             DataClassification = CustomerContent;
         }
-        field(5; "Vehicle reg no. "; Text[10])
+        field(5; "Price"; Integer)
         {
-            Caption = 'Vehicle reg no. ';
+            Caption = 'Price';
             DataClassification = CustomerContent;
+        }
+        field(6; "Gearbox"; Enum GearboxEnum)
+        {
+            Caption = 'Gearbox';
+            DataClassification = ToBeClassified;
         }
     }
     keys
     {
-        key(PK; "Car brand")
+        key(PK; "Make")
         {
             Clustered = true;
         }

@@ -7,5 +7,8 @@ codeunit 50104 "Hello World Codeunit"
 
     end;
 
+    var
+        customer: Record Customer;
+
 
 }
